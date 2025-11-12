@@ -1,27 +1,39 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { RecipeData } from '../../services/recipe-data';
 
 @Component({
   selector: 'app-recipes',
   imports: [],
   templateUrl: './recipes.html',
-  styleUrl: './recipes.css',
+  styleUrls: ['./recipes.css'],
+  providers: [RecipeData],
 })
-export class Recipes {
-  recipe_list = [
-    {
-      name: 'Pasta Alfredo',
-      ingredients: ['Pasta', 'Cream', 'Garlic', 'Butter', 'Parmesan Cheese'],
-      rating: 4.5,
-    },
-    {
-      name: 'Chicken Curry',
-      ingredients: ['Chicken', 'Onion', 'Tomato', 'Curry Powder', 'Garlic', 'Ginger'],
-      rating: 4.7,
-    },
-    {
-      name: 'Chocolate Cake',
-      ingredients: ['Flour', 'Sugar', 'Cocoa Powder', 'Eggs', 'Butter', 'Milk'],
-      rating: 4.8,
-    },
-  ];
+export class Recipes implements OnInit {
+  recipe_list: any = [];
+  page: number = 1;
+
+  constructor(protected recipeData: RecipeData) {}
+
+  ngOnInit() {
+    this.recipe_list = this.recipeData.getRecipe(this.page);
+  }
+
+  previousPage() {
+    if (this.page > 1) {
+      this.page = this.page - 1;
+      this.recipe_list = this.recipeData.getRecipe(this.page);
+    }
+  }
+
+  nextPage() {
+    if (this.page < this.recipeData.getLastPageNumber()) {
+      this.page = this.page + 1;
+      this.recipe_list = this.recipeData.getRecipe(this.page);
+    }
+  }
+
+  // ✅ Add this
+  get lastPage() {
+    return this.recipeData.getLastPageNumber();
+  }
 }

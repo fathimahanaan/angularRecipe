@@ -3,11 +3,20 @@
     <div class="col-sm-12">
       @for (recipe of recipe_list; track recipe.name) {
       <div class="card text-white bg-primary mb-3">
-        <div class="card-header">{{ recipe.name }}</div>
-        <div class="card-body">this recipe consist of {{ recipe.ingredients }}</div>
+        <div class="card-header">{{ recipe.Title }}</div>
+        <div class="card-body">this recipe consist of {{ recipe.Ingredients }}</div>
         <div class="card-footer">Rating:{{ recipe.rating }}</div>
       </div>
       }
     </div>
+  </div>
+</div>
+
+<div class="col-sm-4 text-center align-self-center">showing page {{ page }} of {{ lastPage }}</div>
+
+<div class="row">
+  <div class="col d-flex justify-content-between">
+    <button class="btn btn-primary" (click)="previousPage()">Previous</button>
+    <button class="btn btn-primary" (click)="nextPage()">Next</button>
   </div>
 </div>

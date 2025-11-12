@@ -1,0 +1,152 @@
+﻿[
+  {
+    "_id": { "$oid": "1" },
+    "Title": "Spaghetti Carbonara",
+    "Ingredients": ["200g spaghetti", "100g pancetta", "2 eggs", "50g parmesan cheese"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "2" },
+    "Title": "Caprese Salad",
+    "Ingredients": ["2 tomatoes", "100g mozzarella", "Fresh basil leaves", "Olive oil"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "3" },
+    "Title": "Pancakes",
+    "Ingredients": ["100g flour", "2 eggs", "200ml milk", "1 tbsp sugar"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "4" },
+    "Title": "Grilled Cheese Sandwich",
+    "Ingredients": ["2 slices bread", "50g cheddar cheese", "Butter"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "5" },
+    "Title": "Tomato Soup",
+    "Ingredients": ["500g tomatoes", "1 onion", "2 cloves garlic", "200ml vegetable stock"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "6" },
+    "Title": "Chicken Stir Fry",
+    "Ingredients": ["200g chicken", "1 bell pepper", "Soy sauce", "Garlic"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "7" },
+    "Title": "Caesar Salad",
+    "Ingredients": ["Lettuce", "50g parmesan", "Croutons", "Caesar dressing"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "8" },
+    "Title": "Omelette",
+    "Ingredients": ["2 eggs", "Salt", "Pepper", "Butter"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "9" },
+    "Title": "Beef Tacos",
+    "Ingredients": ["100g minced beef", "Taco shells", "Lettuce", "Cheddar cheese"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "10" },
+    "Title": "Fruit Smoothie",
+    "Ingredients": ["1 banana", "100ml milk", "50g strawberries", "Honey"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "11" },
+    "Title": "Vegetable Curry",
+    "Ingredients": ["200g mixed vegetables", "Curry powder", "Coconut milk", "Onion"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "12" },
+    "Title": "Lasagna",
+    "Ingredients": ["200g pasta sheets", "100g minced beef", "Tomato sauce", "Cheese"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "13" },
+    "Title": "Chocolate Cake",
+    "Ingredients": ["100g flour", "50g cocoa", "2 eggs", "100g sugar"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "14" },
+    "Title": "Garlic Bread",
+    "Ingredients": ["1 baguette", "2 cloves garlic", "Butter", "Parsley"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "15" },
+    "Title": "Greek Salad",
+    "Ingredients": ["Tomatoes", "Cucumber", "Feta cheese", "Olives"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "16" },
+    "Title": "Fish and Chips",
+    "Ingredients": ["200g fish fillet", "Potatoes", "Flour", "Oil"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "17" },
+    "Title": "Mushroom Risotto",
+    "Ingredients": ["200g rice", "100g mushrooms", "Onion", "Parmesan cheese"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "18" },
+    "Title": "BBQ Chicken Wings",
+    "Ingredients": ["200g chicken wings", "BBQ sauce", "Salt", "Pepper"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "19" },
+    "Title": "Avocado Toast",
+    "Ingredients": ["1 slice bread", "1 avocado", "Salt", "Lemon juice"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "20" },
+    "Title": "Banana Bread",
+    "Ingredients": ["2 bananas", "150g flour", "100g sugar", "1 egg"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "21" },
+    "Title": "Shrimp Pasta",
+    "Ingredients": ["200g pasta", "100g shrimp", "Garlic", "Olive oil"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "22" },
+    "Title": "Tomato Bruschetta",
+    "Ingredients": ["4 slices bread", "2 tomatoes", "Basil", "Olive oil"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "23" },
+    "Title": "Vegetable Soup",
+    "Ingredients": ["200g mixed vegetables", "500ml vegetable stock", "Salt", "Pepper"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "24" },
+    "Title": "Cheeseburger",
+    "Ingredients": ["100g minced beef", "Burger bun", "Cheddar cheese", "Lettuce"],
+    "Reviews": []
+  },
+  {
+    "_id": { "$oid": "25" },
+    "Title": "Pumpkin Soup",
+    "Ingredients": ["300g pumpkin", "Onion", "200ml vegetable stock", "Cream"],
+    "Reviews": []
+  }
+]
