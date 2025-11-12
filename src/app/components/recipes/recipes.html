@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      @for (recipe of recipe_list; track recipe.name) {
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header">{{ recipe.name }}</div>
+        <div class="card-body">this recipe consist of {{ recipe.ingredients }}</div>
+        <div class="card-footer">Rating:{{ recipe.rating }}</div>
+      </div>
+      }
+    </div>
+  </div>
+</div>
